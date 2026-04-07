@@ -1,0 +1,44 @@
+{
+  "threats": [
+    {
+      "id": "T1",
+      "priority": 20,
+      "impact": 3,
+      "likelihood": 2,
+      "mitigations": [
+	      "m1",
+        "m2",
+        "m3",
+	      "m4"
+	]
+    },
+    {
+      "id": "T2",
+      "priority": 9,
+      "impact": 5,
+      "likelihood": 5,
+      "mitigations": [
+	      "m5",
+        "m6",
+        "m1",
+        "m2",
+        "m3"
+	]
+    },
+    {
+      "id": "T3",
+      "priority": 10,
+      "impact": 5,
+      "likelihood": 4,
+      "mitigations": ["m4"]
+    }
+  ],
+  "mitigations": [
+    {"id": "m1"},
+    {"id": "m2"},
+    {"id": "m3"},
+    {"id": "m4"},
+    {"id": "m5"},
+    {"id": "m6"}
+  ]
+}
