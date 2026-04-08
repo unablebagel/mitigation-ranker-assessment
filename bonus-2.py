@@ -27,7 +27,7 @@ mitigations = {}
 # take id as key, subsequent values within a dict
 
 threats = {t["id"]: t for t in data["threats"]}
-mitigations = {m["id"]: {"score": 0, "time_cost": m["time_cost"]} for m in data["mitigations"]}
+mitigations = {m["id"]: {"score": 0, "time_cost": m.get("time_cost", 1)} for m in data["mitigations"]}
 
 def risk_score(threat):
     return threat["impact"] * threat["likelihood"] * math.log(threat["priority"])
