@@ -1,7 +1,7 @@
 import json
 import math 
 
-with open('input.json', 'r') as file:
+with open('input-core.json', 'r') as file:
     data = json.load(file)
 
 # print(data)

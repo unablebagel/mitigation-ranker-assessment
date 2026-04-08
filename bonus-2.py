@@ -1,7 +1,7 @@
 import json
 import math 
 
-with open('input-bonus.json', 'r') as file:
+with open('input-bonus2.json', 'r') as file:
     data = json.load(file)
 
 # print(data)
@@ -66,4 +66,4 @@ def greedy_select(budget, N):
 
 
 print("\nGreedy selection (budget=4, N=3):")
-print(greedy_select(4, 3)) # set budget at 10 units of time, choose top 3
+print(greedy_select(4, 3)) # set budget at 4 units of time, choose top 3

@@ -1,0 +1,23 @@
+{
+  "threats": [
+    {"id": "T1", "priority": 50, "impact": 9, "likelihood": 1, "mitigations": ["m1", "m3"]},
+    {"id": "T2", "priority": 3,  "impact": 2, "likelihood": 5, "mitigations": ["m2", "m4", "m7"]},
+    {"id": "T3", "priority": 30, "impact": 7, "likelihood": 4, "mitigations": ["m3", "m5", "m8"]},
+    {"id": "T4", "priority": 8,  "impact": 1, "likelihood": 2, "mitigations": ["m6", "m9"]},
+    {"id": "T5", "priority": 100,"impact": 10,"likelihood": 5, "mitigations": ["m1", "m2", "m5", "m9"]},
+    {"id": "T6", "priority": 2,  "impact": 3, "likelihood": 1, "mitigations": ["m4", "m6", "m7"]},
+    {"id": "T7", "priority": 15, "impact": 6, "likelihood": 3, "mitigations": ["m2", "m8", "m10"]}
+  ],
+  "mitigations": [
+    {"id": "m1",  "time_cost": 1},
+    {"id": "m2",  "time_cost": 8},
+    {"id": "m3",  "time_cost": 3},
+    {"id": "m4",  "time_cost": 2},
+    {"id": "m5",  "time_cost": 5},
+    {"id": "m6",  "time_cost": 1},
+    {"id": "m7",  "time_cost": 10},
+    {"id": "m8",  "time_cost": 4},
+    {"id": "m9",  "time_cost": 2},
+    {"id": "m10", "time_cost": 7}
+  ]
+}
