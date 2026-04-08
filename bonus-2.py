@@ -51,7 +51,7 @@ for m in sorted_mitigations:
 
 
 def greedy_select(budget, N):
-    """Greedily pick mitigations by score until budget is exhausted or N mitigations selected."""
+    #Pick mitigations by score until budget is exhausted or N mitigations selected.
     selected = []
     remaining_budget = budget
 

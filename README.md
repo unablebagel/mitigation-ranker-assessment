@@ -74,9 +74,17 @@ Adjust the `budget` and `N` arguments in the `greedy_select` call at the bottom 
 
 ## Usage
 
+Install dependencies for the test cases:
+
 ```
-python core.py
-python bonus-1.py
-python bonus-2.py
-python -m unittest test_cases -v
+pip install hypothesis
+```
+
+Run the scripts:
+
+```
+py core.py
+py bonus-1.py
+py bonus-2.py
+py -m unittest test_cases -v
 ```
